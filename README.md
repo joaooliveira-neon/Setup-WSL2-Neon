@@ -1,5 +1,7 @@
 # Windows Onboarding AI Team
 
+[Click here for English version](README.en.md)
+
 O objetivo deste documento é auxiliar novos membros que cheguem com Windows a configurar seu ambiente de desenvolvimento. Após terminar a configuração que está nesse documento, pode continuar com os passos descritos no AI Eng Docs Hub.
 
 ## Observações
