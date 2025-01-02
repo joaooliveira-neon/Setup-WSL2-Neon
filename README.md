@@ -1,6 +1,6 @@
 # Windows-Onboarding-AI-Team
 
-O objetivo deste documento é auxiliar novos membros que cheguem com Windows a configurar seu ambiente de desenvolvimento. Qualquer problema, pode ma chamar no Slack.
+O objetivo deste documento é auxiliar novos membros que cheguem com Windows a configurar seu ambiente de desenvolvimento. Após terminar a configuração que está nesse documento, pode continuar com os passos descritos no AI Eng Docs Hub.
 
 ## Observações
 - Utilize a **Central de Software** para instalar os softwares necessários.
