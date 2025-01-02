@@ -105,8 +105,8 @@ unsetopt no_match' > ~/.zshrc
 
 echo -e "\n${COLOR_CYAN}📝 Creating .config/nvim configuration...${COLOR_RESET}"
 mkdir -p ~/.config/nvim
-echo "set nu ai si cindent sw=4 ts=4 so=10 undofile et\nau BufReadPost * if line(\"'\\\"\") > \
-1 && line(\"'\\\"\") <= line(\"\$\") | exe \"normal! g'\\\"\" | endif" > ~/.config/nvim/init.vim
+echo "set nu ai si cindent sw=4 ts=4 so=10 undofile et
+au BufReadPost * if line(\"'\\\"\") > 1 && line(\"'\\\"\") <= line(\"\$\") | exe \"normal! g'\\\"\" | endif" > ~/.config/nvim/init.vim
 
 if [ "$DEBUG" = true ]; then read -p "Press Enter to continue..."; fi
 
