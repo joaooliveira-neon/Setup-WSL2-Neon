@@ -48,7 +48,7 @@ if [ "$DEBUG" = true ]; then read -p "Press Enter to continue..."; fi
 echo -e "\n${COLOR_GREEN}🛠️ Installing essential development tools and utilities...${COLOR_RESET}"
 # Some tools
 sudo apt-get install -y -qq build-essential git zsh neovim gedit fzf tmux eza bat colordiff ripgrep pipx \
-fd-find libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm gettext \
+fd-find libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm gettext telnet \
 libncurses5-dev tk-dev tcl-dev blt-dev libgdbm-dev git aria2 lzma liblzma-dev python3 python3-pip 2>&1 | while read -r line; do
     echo -ne "\r\033[K${line}"
 done
